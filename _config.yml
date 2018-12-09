@@ -10,6 +10,12 @@
 #   sort_field: 'date'
 #   sort_reverse: true
 
+baseurl: "/blog"
+url: http://JoeMWatson.github.io
+production_url : http://JoeMWatson.github.io/blog
+BASE_PATH : http://JoeMWatson.github.io/blog
+relative_permalinks: false
+
 # jekyll-paginate configuration
 paginate:            5
 
@@ -17,11 +23,12 @@ paginate:            5
 markdown:            kramdown
 highlighter:         rouge
 permalink:           none
+# plugins:             [jekyll-seo-tag]
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'blog'
-description:	       'Robotics & Machine Learning'
+title:               'blog'
+description:         'Robotics & Machine Learning'
 author:              'Joe Watson'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
