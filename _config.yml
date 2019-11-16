@@ -27,13 +27,8 @@ permalink:           none
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-<<<<<<< HEAD
 title:		           'Research Journal'
 description:	       'Robotics, Control & Inference'
-=======
-title:               'blog'
-description:         'Robotics & Machine Learning'
->>>>>>> 29a3bc70303a518652b38e7c44a20e555aeb7d9f
 author:              'Joe Watson'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
