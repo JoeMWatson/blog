@@ -18,10 +18,11 @@
 */
 
 body {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "Crimson Text", Georgia "Times New Roman", serif;
   font-size: 18px;
   color: #515151;
   line-height: 1.75rem;
+  background-color: #f7f2f7;
 }
 
 @media (max-width: 30em) {
@@ -31,20 +32,24 @@ body {
   }
   body h1 {
     font-size: 1.5rem;
+    color: #0000ff;
   }
 }
 
 h1{
   font-size: 2rem;
+  color: #0000ff;
 }
 
 h1 a {
+  color: #0000ff;
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Quattrocento Sans", sans-serif;
-  color: #333;
+  font-family: "Questrial", sans-serif;
+  font-weight: bold;
+  color: #0000ff;
 }
 
 a {
@@ -53,7 +58,7 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: #7f98fa;
   border-bottom: none;
 }
 
@@ -102,20 +107,23 @@ hr {
   padding-bottom: 0.5rem;
   margin-bottom: 4rem;
   font-family: "Quattrocento Sans", sans-serif;
+  color: #0000ff;
 }
 
 .masthead a:hover {
-  color:black;
+  color: #7f98fa;
 }
 
 .masthead-title a {
   font-size: 2rem;
   text-decoration: none;
-  color: #505050;
+  color: #0000ff;
+  /*color: #505050;*/
 }
 
 .masthead-subtitle {
-  color: #999;
+  /*color: #999;*/
+  color: #7f98fa;
 }
 
 /*
@@ -160,6 +168,7 @@ hr {
 @media (max-width: 30rem) {
   .posts h1 {
     font-size: 1.5rem;
+    color: #0000ff;
   }
 }
 
@@ -184,6 +193,7 @@ hr {
   overflow: hidden;
   font-family: 'Quattrocento Sans', sans-serif;
   text-align: center;
+  color: #0000ff;
 }
 
 .pagination a {
