@@ -118,7 +118,6 @@ hr {
   font-size: 2rem;
   text-decoration: none;
   color: #0000ff;
-  /*color: #505050;*/
 }
 
 .masthead-subtitle {
@@ -161,7 +160,7 @@ hr {
   margin-top:3px;
   margin-bottom: 1rem;
   color: #9a9a9a;
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: monospace, monospace;
   font-size:0.8rem;
 }
 
@@ -191,7 +190,7 @@ hr {
 
 .pagination {
   overflow: hidden;
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: monospace, monospace;
   text-align: center;
   color: #0000ff;
 }
