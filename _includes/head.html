@@ -16,7 +16,7 @@
   <!-- Use Atom -->
   {% feed_meta %}
   <!-- Use RSS-2.0 -->
-  <!--<link href="{{ site.github.url }}/rss-feed.xml" type="application/rss+xml" rel="alternate" title="{{ site.title }} | {{ site.description }}"/>
+  <!--<link href="{{ site.baseurl }}/rss-feed.xml" type="application/rss+xml" rel="alternate" title="{{ site.title }} | {{ site.description }}"/>
   //-->
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
@@ -25,8 +25,17 @@
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Questrial&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <script type="text/javascript" async
+  <!-- <script type="text/javascript" async
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script> -->
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+  <script type="text/javascript">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    });
   </script>
 
   <!-- Google Analytics -->

@@ -50,6 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Questrial", sans-serif;
   font-weight: bold;
   color: #0000ff;
+  line-height: 1.1;
 }
 
 a {
@@ -356,6 +357,14 @@ table, th, td {
 th, td {
   padding: 15px;
   text-align: left;
+}
+
+/*
+  Mathjax
+*/
+
+.MathJax {
+font-size: 2em !important;
 }
 
 /*
